@@ -1,5 +1,4 @@
 ---
-
 import HtmlLogo from '@/icons/Html.astro'
 import CssLogo from '@/icons/Css.astro'
 import SassLogo from '@/icons/Sass.astro'
@@ -7,6 +6,15 @@ import BootLogo from '@/icons/Bootstrap.astro'
 import LinkButton from './LinkButton.astro'
 import GitHub from '@/icons/GitHub.astro'
 import LinkIcon from '@/icons/Link.astro'
+import ReactLogo from '@/icons/React.astro'
+import TailLogo from '@/icons/Tailwind.astro'
+import FireLogo from '@/icons/Firebase.astro'
+import ReduxLogo from '@/icons/Redux.astro'
+import SQLogo from '@/icons/SQLite.astro'
+import AstroLogo from '@/icons/AstroLogo.astro'
+import TypeSLogo from '@/icons/TypeS.astro'
+import JavaSLogo from '@/icons/JavaS.astro'
+import SvelteLogo from '@/icons/Svelte.astro'
 
 const TAGS = {
     HTML :{
@@ -29,11 +37,72 @@ const TAGS = {
         class: 'bg-[#7E13F8]/50 text-white',
         icon: BootLogo,
     },
+    React:{
+        name: 'React',
+        class: 'bg-[#00d7fc]/50 text-white',
+        icon: ReactLogo,
+    },
+    Tailwind:{
+        name: 'Tailwind',
+        class: 'bg-[#00c7b6]/50 text-white',
+        icon: TailLogo,
+    },
+    Firebase:{
+        name: 'Firebase',
+        class: 'bg-[#de3318]/50 text-white',
+        icon: FireLogo,
+    },
+    Redux:{
+        name: 'Redux',
+        class: 'bg-[#7d42b8]/50 text-white',
+        icon: ReduxLogo,
+    },
+    SQLite:{
+        name: 'SQLite',
+        class: 'bg-[#2f85cc]/50 text-white',
+        icon: SQLogo,
+    },
+    Astro:{
+        name: 'Astro',
+        class: 'bg-[#ff6224]/50 text-white',
+        icon: AstroLogo,
+    },
+    TypeS:{
+        name: 'TypeScript',
+        class: 'bg-[#3a73c2]/50 text-white',
+        icon: TypeSLogo,
+    },
+    JavaS:{
+        name: 'JavaScript',
+        class: 'bg-[#eddf61]/50 text-white',
+        icon: JavaSLogo,
+    },
+    Svelte:{
+        name: 'Svelte',
+        class: 'bg-[#ff441f]/50 text-white',
+        icon: SvelteLogo,
+    },
 }
 
 
 
 const PROJECTS = [
+    {
+        title: 'SuTu E-Commerce App',
+        description: 'The app allows user to have an interaction whit an ecommerce, using functions like: shopping cart, login, customizable profile. There are lot of interactive functions like using google maps for a more precise way of having your adress, real time, currency changes as you set your country and more!',
+        link: 'https://sutureactnative.netlify.app/',
+        github:'https://github.com/Juliban27/SutuProtectoNative',
+        image: '/projects/Ecommerce.webp',
+        tags:[TAGS.React, TAGS.Tailwind , TAGS.Firebase , TAGS.Redux  , TAGS.SQLite, TAGS.JavaS]
+    },
+    {
+        title: 'Spotify Clone',
+        description: 'This web is a clone of Spotify, this web allows you to play some music along all the pages using persist, an effective volume control, a slider for the songs where you can play exactly the second you want to hear! Display the playlist as tables, and exquisite transitions between pages!',
+        link: 'https://spotify-clone-roma.netlify.app/',
+        github:'https://github.com/Juliban27/Spotify-Clone',
+        image: '/projects/Spotify.webp',
+        tags:[TAGS.React, TAGS.Tailwind , TAGS.Astro, TAGS.TypeS, TAGS.JavaS, TAGS.Svelte]
+    },
     {
         title: 'SuTu',
         description: 'The site allows users to explore a wide range of tech products, such as computer components and peripheral. SASS enabled a scalable code structure, and Bootstrap ensured the design was adaptable',

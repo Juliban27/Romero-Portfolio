@@ -1,54 +1,44 @@
-# Astro Starter Kit: Basics
+# 🌟 Web & Software Developer Portfolio  
 
-```sh
-npm create astro@latest -- --template basics
-```
+Hello! 👋 Welcome to my developer portfolio. Here you’ll find a collection of projects that showcase my skills, experience, and passion for technology. 🚀  
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## 🧑‍💻 About Me  
+I’m a software and web developer based in **Bogotá, Colombia**. My main goal is to work on innovative and challenging projects for companies that value high-quality software and the positive impact of technology.  
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🚀 Technologies I Use  
+This portfolio is built using modern technologies that highlight my expertise as a developer:  
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+- **Frontend**: Astro, TypeScript, JavaScript, React  
+- **Styling**: TailwindCSS   
+- **Databases**: SQLite  
+- **Tools**: Git, GitHub, 
 
-## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
+## 📂 Featured Projects  
+### 1. [SuTu E-Commerce App](#)  
+The app allows user to have an interaction whit an ecommerce, using functions like: shopping cart, login, customizable profile. There are lot of interactive functions like using google maps for a more precise way of having your adress, real time, currency changes as you set your country and more!  
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+### 2. [Spotify Clone](#)  
+This web is a clone of Spotify, this web allows you to play some music along all the pages using persist, an effective volume control, a slider for the songs where you can play exactly the second you want to hear! Display the playlist as tables, and exquisite transitions between pages!
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+### 3. [SuTu](#)  
+The site allows users to explore a wide range of tech products, such as computer components and peripheral. SASS enabled a scalable code structure, and Bootstrap ensured the design was adaptable
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## 📩 Get in Touch  
+If you’re interested in collaborating or just want to say hi, feel free to reach out!  
 
-Any static assets, like images, can be placed in the `public/` directory.
+- 📧 Email: [julianroma06@gmail.com](mailto:julianroma06@gmail.com)  
+- 💼 LinkedIn: [www.linkedin.com/in/julian-eduardo-romero-martínez-57886b1a0](https://www.linkedin.com/in/julian-eduardo-romero-martínez-57886b1a0)  
+- 🌐 Online Portfolio: [https://portfoliojuliancho.netlify.app/](https://portfoliojuliancho.netlify.app/)  
 
-## 🧞 Commands
+## 🛠️ How to Run This Project  
+1. Clone this repository:  
+   ```bash  
+   git clone https://github.com/your_username/your_repository.git  
 
-All commands are run from the root of the project, from a terminal:
+   npm install  
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+   npm run dev  
 
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+   ```
+   

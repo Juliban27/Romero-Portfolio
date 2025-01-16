@@ -1,0 +1,30 @@
+---
+import Badge from "@/components/Badge.astro";
+import Layout from "@/layouts/Layout.astro";
+import SectionContainer from "@/components/SectionContainer.astro";
+import SocialPill from "@/components/SocialPill.astro";
+import LinkedInIcon from "@/icons/LinkedIn.astro";
+---
+<Layout 
+    title="Design System Portfolio-Romero"
+    description="The component catalog"
+> 
+    <SectionContainer class="py-44 pb-32 text-white flex flex-col gap-y-10">	
+        <article class="mb-10">
+            <h1 class="mb-4 font-semibold">&lt;Badge /&gt;</h1>
+            <Badge>Available for hire</Badge>
+        </article>
+        
+        <article class="mb-10">
+            <h1 class="mb-4 font-semibold">&lt;SocialPill /&gt;</h1>
+            <div class="flex">
+                <SocialPill href="https://www.linkedin.com/in/julian-eduardo-romero-mart%C3%ADnez-57886b1a0/" class="w-52" >
+                    <LinkedInIcon class="size-4 md:size-6"/>
+                    LinkedIn
+                </SocialPill>
+            </div>
+        </article>
+    <SectionContainer class="py-44 pb-32"/>	
+
+    
+</Layout> 

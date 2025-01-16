@@ -1,0 +1,47 @@
+---
+import Badge from '@/components/Badge.astro';
+import GitHubIcon from '@/icons/GitHub.astro';
+import LinkedInIcon from '@/icons/LinkedIn.astro'
+import MailIcon from '@/icons/Mail.astro';
+import SectionContainer from '@/components/SectionContainer.astro';
+import SocialPill from '@/components/SocialPill.astro';
+---
+
+<div class="">	
+    <div class="">
+        <div class="flex flex-row gap-x-6">
+            <img 
+            class="rounded-full size-24 mb-4"
+            src="https://media.licdn.com/dms/image/v2/D4E03AQGM2GMdHMFEmA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1709657220212?e=1742428800&v=beta&t=i9_NBB4NsDzWP163akudbQMvofTBoKKWroNejw8XTlc" 
+            alt="Julians photo"
+            />
+            <a href="https://www.linkedin.com/in/julian-eduardo-romero-mart%C3%ADnez-57886b1a0/"
+                target="_blank"
+                rel="noopener"
+                class="flex justify-center items-center hover:scale-105 transition">
+                    <Badge>Available for hire </Badge>
+            </a>
+        </div>
+        <h1 class="text-white text-3xl md:text-4xl lg:text-5xl font-bold flex flex-row gap-x-4 pb-5 lg:pb-6">Hey, i'm Julian
+            
+        </h1>
+    </div>
+
+<h2 class="text-white  lg:text-2xl text-wrap max-w-[700]"> <span class="text-purple-300/90 font-semibold">I'm a Web and Software Developer</span>  <span class="opacity-80"> based in </span> <span class="text-yellow-100/90">Bogotá, Colombia</span>.  Specializing in building scalable, efficient software solutions and responsive websites. <span class="opacity-80"> Passionate about collaborating with teams, in order to deliver high-quality, impactful products.</span>
+</h2>
+
+<nav class="flex gap-4 mt-8 text-white flex-wrap">
+    <SocialPill href="https://www.linkedin.com/in/julian-eduardo-romero-mart%C3%ADnez-57886b1a0/" >
+        <LinkedInIcon class="size-4 md:size-6"/>
+        LinkedIn
+    </SocialPill>
+    <SocialPill href="https://github.com/Juliban27" >
+        <GitHubIcon class="size-4 md:size-6"/>
+        GitHub
+    </SocialPill>
+    <SocialPill href="mailto:julianroma06@gmail.com" >
+        <MailIcon class="size-4 md:size-6"/>
+        Julianroma06@gmail.com
+    </SocialPill>
+</nav>
+</div>

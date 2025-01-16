@@ -1,0 +1,40 @@
+---
+import AcademicItem from "./AcademicItem.astro"
+
+const BACKGROUND = [
+    
+    {
+        date: '2024-2028',
+        title: 'Computer Engineering',
+        description: 'I am currently studying, acquiring knowledge in various technologies such as Java and Python, learning the applied engineering sciences, and participating in academic research groups.',
+        place: "Universidad de la Sabana"
+    },
+    {
+        date: '2023-2024',
+        title: 'Software Development',
+        description: 'I gained experience developing projects with HTML, CSS, SASS, Bootstrap, Javascript, ReactJS, React Native, Redux, SQLIte, and MongoDB.  Using VS Code, Android Studio y  XCODE.',
+        place: "Coderhouse",
+        link: 'https://api-gw.coderhouse.com/www/certifications/66e8ae37d60bbda9deaa0767/print?lang=en'
+
+    },
+    {
+        date: '2010-2024',
+        title: 'Bachillerato',
+        description: 'I excelled in technological and mathematical subjects, providing a solid foundation in logic and problem-solving. I participated in a robotics competition, representing my school nationally.',
+        place: "Colegio Bilingüe Hispanoamericano Conde Ansúrez"
+        
+    }
+]
+
+---
+<ol class="relative mt-16">
+    {
+        BACKGROUND.map(background => (
+        <li class="text-white">
+            <AcademicItem {...background}/>
+        </li>
+        ))
+    }
+    
+</ol>
+

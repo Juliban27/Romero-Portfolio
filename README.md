@@ -35,10 +35,13 @@ If you’re interested in collaborating or just want to say hi, feel free to rea
 1. Clone this repository:  
    ```bash  
    git clone https://github.com/your_username/your_repository.git  
-
-   npm install  
-
+    ```
+2. Install dependecies: 
+    ```bash  
+    npm install  
+    ```
+3. Start the development server:
+    ```bash   
    npm run dev  
-
    ```
    

@@ -15,6 +15,9 @@ import AstroLogo from '@/icons/AstroLogo.astro'
 import TypeSLogo from '@/icons/TypeS.astro'
 import JavaSLogo from '@/icons/JavaS.astro'
 import SvelteLogo from '@/icons/Svelte.astro'
+import MongoLogo from '@/icons/MongoDB.astro'
+import NodeLogo from '@/icons/NodeJS.astro'
+import JWTLogo from '@/icons/JWT.astro'
 
 const TAGS = {
     HTML :{
@@ -82,6 +85,21 @@ const TAGS = {
         class: 'bg-[#ff441f]/50 text-white',
         icon: SvelteLogo,
     },
+    Mongo:{
+        name: 'MongoDB',
+        class: 'bg-[#00ed6f]/50 text-white',
+        icon: MongoLogo,
+    },
+    Node:{
+        name: 'Node.js',
+        class: 'bg-[#5bb854]/50 text-white',
+        icon: NodeLogo,
+    },
+    JWT:{
+        name: 'JWT',
+        class: 'bg-[#dd19f7]/50 text-white',
+        icon: JWTLogo,
+    },
 }
 
 
@@ -104,12 +122,12 @@ const PROJECTS = [
         tags:[TAGS.React, TAGS.Tailwind , TAGS.Astro, TAGS.TypeS, TAGS.JavaS, TAGS.Svelte]
     },
     {
-        title: 'SuTu',
-        description: 'The site allows users to explore a wide range of tech products, such as computer components and peripheral. SASS enabled a scalable code structure, and Bootstrap ensured the design was adaptable',
-        link: 'https://juliban27.github.io/SuTu/index.html',
-        github:'https://github.com/Juliban27/SuTu',
-        image: '/projects/SutuImage.webp',
-        tags:[TAGS.HTML, TAGS.CSS, TAGS.SASS, TAGS.BootsTrap]
+        title: 'UniSabana Dining Through',
+        description: 'A smart food ordering platform that eliminates waiting lines at UniSabana campus restaurants. The app features real-time ordering, customizable shopping carts, digital menus, and instant notifications. Students can place orders ahead of time and pick them up when ready, while restaurant staff manage orders through an intuitive admin panel with inventory tracking. Dramatically improves campus dining efficiency through its seamless, time-saving interface!',
+        link: 'https://dining-through.vercel.app/restaurants/6816a0ac809dae6dad6bd175',
+        github:'https://github.com/Juliban27/DiningThrough',
+        image: '/projects/DiningThrough.webp',
+        tags:[TAGS.React, TAGS.Tailwind, TAGS.JavaS, TAGS.Mongo, TAGS.Node, TAGS.JWT]
     },
 ]
 

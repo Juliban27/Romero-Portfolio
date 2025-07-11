@@ -1,0 +1,31 @@
+---
+import WorkItem from "./WorkItem.astro"
+
+const BACKGROUND = [
+    
+    {
+        date: '2025 - Present',
+        title: 'Expert Contributor at Outlier',
+        description: 'I supported the validation and generation of high-quality data for AI model training, collaborating with teams to improve systems through expert feedback and data refinement. Demonstrated strong technical communication and problem-solving skills in a fast-paced environment.',
+        place: "Outlier - Remote",
+    },
+    {
+        date: '2024-2025',
+        title: 'Web Developer',
+        description: 'I designed and developed custom websites and web applications using HTML, CSS, JavaScript, and frameworks like React. Delivered responsive, user-focused solutions tailored to client needs, while ensuring performance, SEO, and cross-browser compatibility. Successfully managed multiple projects and maintained strong client relationships through effective communication and support.',
+        place: "Fiverr",
+    },
+]
+
+---
+<ol class="relative mt-16">
+    {
+        BACKGROUND.map(background => (
+        <li class="text-white">
+            <WorkItem {...background}/>
+        </li>
+        ))
+    }
+    
+</ol>
+

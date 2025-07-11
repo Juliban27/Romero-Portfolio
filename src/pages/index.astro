@@ -16,6 +16,8 @@ import SectionContainer from '@/components/SectionContainer.astro';
 import SocialPill from '@/components/SocialPill.astro';
 import Studies from '@/icons/Studies.astro';
 import Hero from '@/components/Hero.astro';
+import JobLogo from '@/icons/JobEX.astro';
+import WorkExperience from '@/components/WorkExperience.astro';
 
 ---
 
@@ -27,8 +29,16 @@ import Hero from '@/components/Hero.astro';
 		<SectionContainer class="py-16 md:py-36">
 			<Hero>
 				</slot>
-		  	</Hero>
+			</Hero>
 		</SectionContainer>
+
+	<SectionContainer id="workExperience" class="pt-24 pb-16" >
+		<h2 class=" text-white text-3xl font-semibold mb-6 flex flex-row gap-x-3 items-center pb-6" >
+			<JobLogo class="size-4 md:size-6"/>
+			Work Experience
+		</h2>
+		<WorkExperience/>
+	</SectionContainer>
 		
 	<SectionContainer id="academicBackground" class="pt-24 pb-16" >
 		<h2 class=" text-white text-3xl font-semibold mb-6 flex flex-row gap-x-3 items-center pb-6" >
